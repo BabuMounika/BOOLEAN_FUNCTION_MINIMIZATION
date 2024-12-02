@@ -18,6 +18,7 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Logic Diagram**
 
+
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -32,19 +33,28 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
-
+```
+Developed by:MOTTA KATTA MOUNIKA 
+RegisterNumber:24010589
+```
+```
+ module booleanfunction(a,b,c,d,f1);
+ input a,b,c,d;
+ output f1;
+ assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+ endmodule
+```
 
 **RTL realization**
+![Screenshot 2024-12-03 000503](https://github.com/user-attachments/assets/528f6bc8-d74d-4f27-ad80-5ba736205928)
 
 **Output:**
+![Screenshot 2024-12-03 000855](https://github.com/user-attachments/assets/bed50dc2-00a5-48e9-864d-3e3b3f6ab606)
 
 **RTL**
 
 **Timing Diagram**
+![Screenshot 2024-12-03 001004](https://github.com/user-attachments/assets/d45c41ec-7269-4fde-9cf2-a45f5cc59828)
 
 **Result:**
 
